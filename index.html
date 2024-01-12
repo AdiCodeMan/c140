@@ -1,0 +1,60 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body>
+
+        <script src="main.js"></script>
+    </body background="">
+    <center>
+    <div class="btn btn-primary heading" id="heading">
+        <h3>AI PING PONG GAME </h3>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Instructions</button>
+      </div>
+      <br>
+      <br>
+      <img src="ping pong.jpg" class="big_image">
+      <br>
+      <button class="btn btn-danger" id="restart">Restart</button>
+      <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+    <h3 id="status" class="btn btn-warning"></h3>
+    <br>
+      <div id="canvas"></div>      
+      <div id="myModal" class="modal fade ">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4>Instructions</h4>
+              </div>
+                <div class="modal-body">
+                    <section>
+                 <ol>
+                    <li>You want to deflect the ball by going in front of the ball by moving your cursor up which will automatically hit it to the other side</li>
+                    <li>Each time you hit the ball it get faster but the width and height won't which will make the game harder after sometime</li>
+                    <li>And if u want to restart click the restart button which will restart your game. Have fun!</li>
+                 </ol>
+                </section>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy_right_footer">
+        Developed by - Aditya Singh 
+      </div>
+      
+<script src="main.js"></script>
+</body>
+</html>
